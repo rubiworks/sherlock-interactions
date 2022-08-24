@@ -1,0 +1,6 @@
+{
+    "component-type": "thumbs",
+    "prompt-body": "How good was Harry Potter?",
+    // adds a "later box"
+    "later": true
+}

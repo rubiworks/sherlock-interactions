@@ -1,0 +1,13 @@
+{
+    "component-type": "emoji",
+    "prompt-body": "How good was Harry Potter?",
+    //defaults to grid
+    "selection-style": "grid | slider",
+    // TODO: Need to determine how to specify these beyond the default set.
+    // Emojis can be custom specified to replace the default set
+    "emojis": [
+        {"emoji": "smile", "caption": "Energized"},
+        {"emoji": "happy", "caption": "Happy"},
+        {"emoji": "happy", "caption": "Energized"}
+    ] 
+}

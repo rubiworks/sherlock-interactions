@@ -1,0 +1,9 @@
+{
+    "component-type": "stars",
+    "prompt-body": "How good was Harry Potter?",
+    // Review is used to pull a question from a different course
+    "review": { 
+        "course-id": 0,
+        "interaction-id": 0
+    }
+}

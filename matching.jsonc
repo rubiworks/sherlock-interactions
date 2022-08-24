@@ -1,0 +1,21 @@
+{
+    "component-type": "matching",
+    "component-style": "words | iamges",
+    "prompt-body": "This is a sample prompt for the user to answer.",
+    // Reflective will accept any answer
+    "results-mode": "subjective | reflective",
+    "pairs": [
+        {
+            "content-left": "part a",
+            "content-right": "part b",
+            // when in images component-style, the right is ignored and image is used instead
+            "content-image": "image"
+        },
+        {
+            "content-left": "part a",
+            "content-right": "part b",
+            // when in images component-style, the right is ignored and image is used instead
+            "content-image": "image"
+        }
+    ]
+}

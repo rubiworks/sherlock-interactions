@@ -1,0 +1,18 @@
+{
+    "component-type": "two-image-sort",
+    "prompt-body": "How good was Harry Potter?",
+    "results-mode": "subjective | reflective",
+    // the correct order is defined by the provided order
+    "image-left-url": "",
+    "image-left-options": [
+        "First Option",
+        "Second Option",
+        "Third Option"
+    ],
+    "image-right-url": "",
+    "image-right-options": [
+        "First Option",
+        "Second Option",
+        "Third Option"
+    ]
+}

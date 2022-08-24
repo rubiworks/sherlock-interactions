@@ -1,0 +1,19 @@
+{
+    "component-type": "fill-in-the-blank",
+    "component-style": "text | drag",
+    "prompt-body": "This is a sample prompt for the user to answer.",
+    // The gaps in the content array indicate a blank for the user to fill out.
+    // There should be # of content - 1 answers
+    // A sentence can't end needing an answer. Add a period if it happens.
+    "content": [
+        "The cat jumped over the ",
+        ". The cow ran away with the ",
+        "."
+    ],
+    "answers": [
+        "moon",
+        "spoon"
+    ],
+    // when using drag as a component-style, these can add to the pool of available answers
+    "fake answer": ["balloon", "night"]
+}

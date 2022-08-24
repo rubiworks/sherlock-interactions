@@ -1,0 +1,11 @@
+{
+    "component-type": "sort",
+    "prompt-body": "How good was Harry Potter?",
+    "results-mode": "subjective | reflective",
+    // the correct order is defined by the provided order
+    "options": [
+        {"body": "First Option"},
+        {"body": "Second Option"},
+        {"body": "Third Option"}
+    ] 
+}

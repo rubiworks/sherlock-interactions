@@ -1,0 +1,19 @@
+{
+    "component-type": "slider",
+    "prompt-body": "How good was Harry Potter?",
+    // Review is used to pull a question from a different course
+    "sliders": [
+        {
+            "text-left": "Left Most Caption 2",
+            "text-right": "Right Most Caption 2",
+            "value-min": 0,
+            "value-max": 100
+        },
+        {
+            "text-left": "Left Most Caption 1",
+            "text-right": "Right Most Caption 1",
+            "value-min": 0,
+            "value-max": 100
+        }
+    ]
+}

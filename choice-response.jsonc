@@ -1,0 +1,33 @@
+{
+    /*
+        This set consumes
+        - radio buttons
+        - single answer dropdown
+        - multiple answer dropdown
+        - card sorting
+    */
+    "component-type": "choice-response",
+    // The different versions allow to 
+    "component-style": "dropdown | radio | image | drag",
+    "prompt-body": "This is a sample prompt for the user to answer.",
+    // Subjective will use the "answer" flag in the options to display correct or incorrect. 
+    // Reflective will accept any answer without the answer flag.
+    "results-mode": "subjective | reflective",
+    // radio component-style will force a 1
+    // set this to be the number of answers the users must have to be "correct"
+    "answer-minimum": 1,
+    "options": [
+        {
+            "body": "Incorrect Answer 1",
+            "answer": false,
+            "info": "That isnt quite right. Try again!",
+            "image": "" //used for the image component-style
+        },
+        {
+            "body": "Correct Answer 1",
+            "answer": true,
+            "info": "That is right",
+            "image": "" //used for the image component-style
+        }
+    ]
+}

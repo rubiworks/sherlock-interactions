@@ -1,0 +1,14 @@
+{
+    "component-type": "flashcard",
+    "prompt-body": "How good was Harry Potter?",
+    "cards": [
+        {
+            "content-front": "HTML",
+            "content-back": "HTML"
+        },
+        {
+            "content-front": "HTML",
+            "content-back": "HTML"
+        }
+    ]
+}
