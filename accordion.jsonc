@@ -1,5 +1,5 @@
 {
-    "component-type": "accordian",
+    "component-type": "accordion",
     "prompt-body": "This is a sample prompt for the user to answer.",
     "options": [
         {

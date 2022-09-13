@@ -3,11 +3,11 @@
     "prompt-body": "How good was Harry Potter?",
     //defaults to grid
     "selection-style": "grid | slider",
-    // TODO: Need to determine how to specify these beyond the default set.
     // Emojis can be custom specified to replace the default set
     "emojis": [
-        {"emoji": "smile", "caption": "Energized"},
-        {"emoji": "happy", "caption": "Happy"},
-        {"emoji": "happy", "caption": "Energized"}
+        // emoji is specified using font-awesome references
+        {"emoji": "fa-happy", "caption": "Energized", "color": "color options tbd"},
+        {"emoji": "fa-sad", "caption": "Happy", "color": "color options tbd"},
+        {"emoji": "fa-dinosaur", "caption": "Energized", "color": "color options tbd"}
     ] 
 }

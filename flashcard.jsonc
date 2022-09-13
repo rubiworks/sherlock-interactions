@@ -1,6 +1,7 @@
 {
     "component-type": "flashcard",
     "prompt-body": "How good was Harry Potter?",
+    "selection-style": "grid | slider",
     "cards": [
         {
             "content-front": "HTML",

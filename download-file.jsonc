@@ -1,5 +1,9 @@
 {
     "component-type": "download",
-    "prompt-body": "How good was Harry Potter?",
-    "file-url": "https://google.com/file.pdf"
+    "prompt-body": "Free Harry Potter Poster",
+    "prompt-title": "Movie Review",
+    "file-url": "https://google.com/file.pdf",
+    "image-url": "cdn-url",
+    //small doesn't show the prompt-body
+    "size": "large | small"
 }

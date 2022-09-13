@@ -3,9 +3,12 @@
     "prompt-body": "How good was Harry Potter?",
     "results-mode": "subjective | reflective",
     // the correct order is defined by the provided order
+    // order is randomized on load
     "options": [
         {"body": "First Option"},
         {"body": "Second Option"},
         {"body": "Third Option"}
-    ] 
+    ],
+    "valid-caption": "", // if the correct order is selected
+    "invalid-caption": "" // if the incorrect order is selected
 }

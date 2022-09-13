@@ -1,7 +1,6 @@
 {
     "component-type": "cumulative-choice",
     "prompt-body": "How good was Harry Potter?",
-    // Review is used to pull a question from a different course
     "options": [
         {
             "caption": "Caption",

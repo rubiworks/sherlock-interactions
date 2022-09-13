@@ -2,7 +2,7 @@
     "component_type": "general-response",
     "prompt-body": "This is a sample prompt for the user to answer.",
     // By default, accept a text response, also allow for an audio or video response
-    "response-type": "text | audio | video",
+    "response-type": ["text", "audio", "video"],
     // When using a text response, specify the length of the response box. Small for short answers, long for essay answer
     "response-length": "long | short"
 }

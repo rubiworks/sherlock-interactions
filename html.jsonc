@@ -1,4 +1,8 @@
 {
+    // this encompasses the user stories for
+    // - line
+    // - text block
+    //
     "component-type": "html",
     "content-header": "RAW HTML",
     "content-body": "RAW HTML"

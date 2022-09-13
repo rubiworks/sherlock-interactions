@@ -1,21 +1,22 @@
 {
     "component-type": "matching",
-    "component-style": "words | iamges",
+    "component-style": "words | images",
     "prompt-body": "This is a sample prompt for the user to answer.",
     // Reflective will accept any answer
     "results-mode": "subjective | reflective",
+    "numbered": true, // determines if the destination squares have numbers in them
     "pairs": [
         {
             "content-left": "part a",
             "content-right": "part b",
             // when in images component-style, the right is ignored and image is used instead
-            "content-image": "image"
+            "image-url": "cdn-url"
         },
         {
             "content-left": "part a",
             "content-right": "part b",
             // when in images component-style, the right is ignored and image is used instead
-            "content-image": "image"
+            "image-url": "cdn-url"
         }
     ]
 }

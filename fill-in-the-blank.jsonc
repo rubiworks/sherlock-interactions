@@ -1,5 +1,6 @@
 {
     "component-type": "fill-in-the-blank",
+    "results-mode": "reflective | subjective",
     "component-style": "text | drag",
     "prompt-body": "This is a sample prompt for the user to answer.",
     // The gaps in the content array indicate a blank for the user to fill out.
@@ -10,10 +11,13 @@
         ". The cow ran away with the ",
         "."
     ],
+    //correct answers are in order of the answers array
     "answers": [
         "moon",
         "spoon"
     ],
     // when using drag as a component-style, these can add to the pool of available answers
-    "fake answer": ["balloon", "night"]
+    "fake answer": ["balloon", "night"],
+    "valid-caption": "", // if the correct words/blanks are selected
+    "invalid-caption": "" // if the incorrect words/blanks are selected
 }

@@ -4,6 +4,7 @@
     // Review is used to pull a question from a different course
     "review": { 
         "course-id": 0,
-        "interaction-id": 0
+        "interaction-id": 0,
+        "reference-note": "" //administrator note
     }
 }
