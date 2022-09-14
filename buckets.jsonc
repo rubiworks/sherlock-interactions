@@ -1,0 +1,44 @@
+{
+    "component-type": "sort",
+    // choose-sort will be done using two parts, they select options they like, and then sort those selections
+    // choose-sort is reflective only
+    "component-style": "sort | choose-sort",
+    "prompt-body": "How good was Harry Potter?",
+    "results-mode": "subjective | reflective",
+    // the correct order is defined by the provided order
+    // displays a a count of cards as options and amount in buckets
+    "count": true,
+    // max 4 buckets
+    // options appear in the order or the array
+    // subjective, options needs to be in that bucket
+    "options": [
+        {
+            "caption": "1",
+            "bucket": "A"
+        },
+        {
+            "caption": "",
+            "bucket": "B"
+        },
+        {
+            "caption": "",
+            "bucket": "C"
+        },
+        {
+            "caption": "",
+            "bucket": "D"
+        }
+    ],
+    "buckets": {
+        "A": {
+            "image-url": "",
+            "caption": ""
+        },
+        "B": {
+            "image-url": "",
+            "caption": ""
+        }
+    },
+    "valid-caption": "", // if the correct order is selected
+    "invalid-caption": "" // if the incorrect order is selected
+}

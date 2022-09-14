@@ -1,0 +1,23 @@
+{
+    "component-type": "sectioned-content",
+    "component-style": "accordion | page",
+    "prompt-body": "This is a sample prompt for the user to answer.",
+    "options": [
+        {
+            "title": "A title!",
+            //body supports html to ensure flexibility
+            "body": "Incorrect Answer 1",
+            //only supported in component-style: pages
+            "color": "approved color strings", // no image support
+            "image-url": "cdn url"
+        },
+        {
+            "title": "A title!",
+            //body supports html to ensure flexibility
+            "body": "Incorrect Answer 1",
+            //only supported in component-style: pages
+            "color": "approved color strings", // no image support
+            "image-url": "cdn url"
+        }
+    ]
+}

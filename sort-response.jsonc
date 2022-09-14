@@ -1,5 +1,8 @@
 {
     "component-type": "sort",
+    // choose-sort will be done using two parts, they select options they like, and then sort those selections
+    // choose-sort is reflective only
+    "component-style": "sort | choose-sort",
     "prompt-body": "How good was Harry Potter?",
     "results-mode": "subjective | reflective",
     // the correct order is defined by the provided order
