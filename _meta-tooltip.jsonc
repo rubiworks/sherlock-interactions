@@ -1,4 +1,6 @@
 {
-    "tooltip": "",
-    "tooltip-color": ""
+    "tooltip": {
+        "text": "",
+        "color": ""
+    }
 }

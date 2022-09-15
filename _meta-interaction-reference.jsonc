@@ -2,6 +2,6 @@
     "review": { 
         "course-id": 0,
         "interaction-id": 0,
-        "reference-note": "" //administrator note
+        "note": "" //administrator note
     }
 }
