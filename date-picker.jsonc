@@ -1,4 +1,8 @@
 {
     "component-type": "date-picker",
     "prompt-body": "How good was Harry Potter?",
+    "tooltip": {
+        "text": "",
+        "color": ""
+    }
 }

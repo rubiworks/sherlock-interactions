@@ -1,3 +1,8 @@
 {
-    "nope": true
+    "component-type": "html",
+    "nope": true,
+    "tooltip": {
+        "text": "",
+        "color": ""
+    }
 }

@@ -1,7 +1,10 @@
 {
     "component-type": "thumbs-multi",
-    "prompt-body": "How good was Harry Potter?",
-    "body-content": "Lorem Ipsum", //optional
-    "body-title": "Lorem Ipsum", //optional
-    "options": ["captions", "captions"] //make them all the same teal gradiant color
+    "prompt-title": "How good was Harry Potter?",
+    "prompt-body": "Lorem Ipsum", //optional
+    "options": ["captions", "captions"], //make them all the same teal gradiant color
+    "tooltip": {
+        "text": "",
+        "color": ""
+    }
 }

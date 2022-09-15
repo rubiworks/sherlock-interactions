@@ -1,11 +1,15 @@
 {
-    "component_type": "playback",
+    "component-type": "playback",
     "media": "audio | video",
-    "url": "file location",
+    "url-file": "file location",
     "vimeo": "vimeo_id",
     "review": {
         "course-id": 0,
         "interaction-id": 0,
-        "reference-note": "" //administrator note
+        "note": "" //administrator note
+    },
+    "tooltip": {
+        "text": "",
+        "color": ""
     }
 }

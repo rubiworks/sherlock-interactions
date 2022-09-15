@@ -1,7 +1,11 @@
 {
     "component-type": "quote",
-    "body": "Rice is great if you're really hungry and want to eat two thousand of something.",
-    "source": "Mitch Hedberg",
+    "text-body": "Rice is great if you're really hungry and want to eat two thousand of something.",
+    "text-source": "Mitch Hedberg",
     "fill": true, // determines if the color fills the background or just the text
-    "color": "purple | orange | green | blue" // targets the css for the tile
+    "color": "purple | orange | green | blue", // targets the css for the tile
+    "tooltip": {
+        "text": "",
+        "color": ""
+    }
 }

@@ -1,13 +1,29 @@
 {
     "component-type": "emoji",
-    "prompt-body": "How good was Harry Potter?",
-    //defaults to grid
-    "selection-style": "grid | slider",
     // Emojis can be custom specified to replace the default set
     "emojis": [
         // emoji is specified using font-awesome references
-        {"emoji": "fa-happy", "caption": "Energized", "color": "color options tbd"},
-        {"emoji": "fa-sad", "caption": "Happy", "color": "color options tbd"},
-        {"emoji": "fa-dinosaur", "caption": "Energized", "color": "color options tbd"}
-    ] 
+        {
+            "color": "color options tbd",
+            "emoji": "fa-happy",
+            "text": "Energized"
+        },
+        {
+            "color": "color options tbd",
+            "emoji": "fa-sad",
+            "text": "Happy"
+        },
+        {
+            "color": "color options tbd",
+            "emoji": "fa-dinosaur",
+            "text": "Energized"
+        }
+    ],
+    "prompt-body": "How good was Harry Potter?",
+    //defaults to grid
+    "component-style": "grid | slider",
+    "tooltip": {
+        "text": "",
+        "color": ""
+    }
 }

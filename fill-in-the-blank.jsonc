@@ -17,7 +17,11 @@
         "spoon"
     ],
     // when using drag as a component-style, these can add to the pool of available answers
-    "fake answer": ["balloon", "night"],
-    "valid-caption": "", // if the correct words/blanks are selected
-    "invalid-caption": "" // if the incorrect words/blanks are selected
+    "answers-fake": ["balloon", "night"],
+    "text-valid": "", // if the correct words/blanks are selected
+    "text-invalid": "", // if the incorrect words/blanks are selected
+    "tooltip": {
+        "text": "",
+        "color": ""
+    }
 }

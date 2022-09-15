@@ -1,5 +1,9 @@
 {
     "component-type": "crossword",
     "prompt-body": "How good was Harry Potter?",
-    "nope": true
+    "nope": true,
+    "tooltip": {
+        "text": "",
+        "color": ""
+    }
 }

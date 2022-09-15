@@ -1,10 +1,13 @@
 {
     "component-type": "thumbs",
-    "prompt-body": "How good was Harry Potter?",
-    // adds a "later box"
-    "later": true,
-    "up-caption": "Yes",
-    "down-caption": "No",
-    "body-content": "Lorem Ipsum", //optional
-    "body-title": "Lorem Ipsum" //optional
+    "prompt-title": "Lorem Ipsum", //mandatory
+    "prompt-body": "How good was Harry Potter?", //text below prompt-title
+    "later": true, // adds a "later box"
+    "text-up": "Yes", //thumbs down text
+    "text-down": "No", //thumbs down text
+    "text-body": "Lorem Ipsum", //inner text above thumbs buttons
+    "tooltip": {
+        "text": "",
+        "color": ""
+    }
 }

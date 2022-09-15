@@ -16,20 +16,24 @@
     // radio component-style will force a 1
     // set this to be the number of answers the users must have to be "correct"
     "answer-minimum": 1,
-    // for drag-caption, only one answer can exist. all others are wrong. the caption must be dragged to the correct answer
-    "drag-caption": "drag me to the right answer",
+    // for caption-drag, only one answer can exist. all others are wrong. the caption must be dragged to the correct answer
+    "caption-drag": "drag me to the right answer",
     "options": [
         {
-            "body": "Incorrect Answer 1",
+            "text-body": "Incorrect Answer 1",
             "answer": false,
             "info": "That isnt quite right. Try again!",
-            "image": "" //used for the image component-style
+            "url-image": "" //used for the image component-style
         },
         {
-            "body": "Correct Answer 1",
+            "text-body": "Correct Answer 1",
             "answer": true,
             "info": "That is right",
-            "image": "" //used for the image component-style
+            "url-image": "" //used for the image component-style
         }
-    ]
+    ],
+    "tooltip": {
+        "text": "",
+        "color": ""
+    }
 }

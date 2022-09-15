@@ -7,16 +7,20 @@
     "numbered": true, // determines if the destination squares have numbers in them
     "pairs": [
         {
-            "content-left": "part a",
-            "content-right": "part b",
+            "text-left": "part a",
+            "text-right": "part b",
             // when in images component-style, the right is ignored and image is used instead
-            "image-url": "cdn-url"
+            "url-image": "cdn-url"
         },
         {
-            "content-left": "part a",
-            "content-right": "part b",
+            "text-left": "part a",
+            "text-right": "part b",
             // when in images component-style, the right is ignored and image is used instead
-            "image-url": "cdn-url"
+            "url-image": "cdn-url"
         }
-    ]
+    ],
+    "tooltip": {
+        "text": "",
+        "color": ""
+    }
 }

@@ -1,15 +1,19 @@
 {
     "component-type": "flashcard",
     "prompt-body": "How good was Harry Potter?",
-    "selection-style": "grid | slider",
+    "component-style": "grid | slider",
     "cards": [
         {
-            "content-front": "HTML",
-            "content-back": "HTML"
+            "html-front": "HTML",
+            "html-back": "HTML"
         },
         {
-            "content-front": "HTML",
-            "content-back": "HTML"
+            "html-front": "HTML",
+            "html-back": "HTML"
         }
-    ]
+    ],
+    "tooltip": {
+        "text": "",
+        "color": ""
+    }
 }

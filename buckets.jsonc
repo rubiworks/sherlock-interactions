@@ -1,5 +1,5 @@
 {
-    "component-type": "sort",
+    "component-type": "buckets",
     // choose-sort will be done using two parts, they select options they like, and then sort those selections
     // choose-sort is reflective only
     "component-style": "sort | choose-sort",
@@ -13,32 +13,36 @@
     // subjective, options needs to be in that bucket
     "options": [
         {
-            "caption": "1",
-            "bucket": "A"
+            "text": "1",
+            "bucket": "example-unique-bucket-name-a"
         },
         {
-            "caption": "",
-            "bucket": "B"
+            "text": "",
+            "bucket": "example-unique-bucket-name-b"
         },
         {
-            "caption": "",
+            "text": "",
             "bucket": "C"
         },
         {
-            "caption": "",
+            "text": "",
             "bucket": "D"
         }
     ],
     "buckets": {
-        "A": {
-            "image-url": "",
-            "caption": ""
+        "example-unique-bucket-name-a": {
+            "url-image": "",
+            "text": ""
         },
-        "B": {
-            "image-url": "",
-            "caption": ""
+        "example-unique-bucket-name-b": {
+            "url-image": "",
+            "text": ""
         }
     },
-    "valid-caption": "", // if the correct order is selected
-    "invalid-caption": "" // if the incorrect order is selected
+    "text-valid": "", // if the correct words/blanks are selected
+    "text-invalid": "", // if the incorrect words/blanks are selected
+    "tooltip": {
+        "text": "",
+        "color": ""
+    }
 }
